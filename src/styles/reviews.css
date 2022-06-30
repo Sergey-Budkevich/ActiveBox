@@ -24,13 +24,15 @@
     display: flex;
     justify-content: flex-end;
 }
-
 .reviews__card{
-    max-width: 470px;
-    width: 100%;
+    width: 50%;
+    padding: 130px 0 115px 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .reviews__card-title  {
-    margin: 130px 0 0;
+    max-width: 470px;
     font-family: 'Cardo';
     font-style: italic;
     font-weight: 400;
@@ -41,7 +43,9 @@
 }
 
 .reviews__card-text{
-    margin: 15px 0 130px;
+    margin: 15px 0 0;
+    max-width: 470px;
+    width: 100%;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -70,5 +74,27 @@
     background-color: #7e5d6f;
 }
 
-
+@media (max-width:1024px){
+    .reviews{
+        padding: 0 0 80px;
+    }
+    .reviews__card{
+        padding: 75px 90px 110px;
+    }
+    .reviews__card-title{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .reviews__card-text{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .reviews__slider{
+        margin: 23px 0 0 ;
+    }
+    .reviews__slider-item{
+        width: 10px;
+        height: 10px;
+    }
+}
 

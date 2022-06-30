@@ -37,7 +37,22 @@
 
 }
 
-
+@media (max-width:1024px){
+    .download{
+        padding: 0 0 80px;
+    }
+    .download__title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .download__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .download__button{
+        margin: 45px 0 0;
+    }
+}
 
 
 

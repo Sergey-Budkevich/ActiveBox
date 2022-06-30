@@ -65,7 +65,17 @@
     color: #FFFFFF;
 }
 
-
+@media (max-width:1024px){
+    .projects__card-title{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .projects__card-text{
+        margin: 20px 0 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
 
 
 

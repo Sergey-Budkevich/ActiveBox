@@ -56,4 +56,27 @@
     column-gap: 5px;
 }
 
+@media (max-width:1024px){
+    .workers{
+        padding: 80px 0;
+    }
+    .workers__cards{
+        column-gap: 25px;
+    }
+    .workers__card-title{
+        margin: 25px 0 0;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .workers__card-subtitle{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .workers__card-text{
+        font-size: 14px;
+        line-height: 16px
+    }
+}
+
+
 

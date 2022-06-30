@@ -43,6 +43,14 @@
 }
 
 
-
+@media (max-width:1024px){
+    .button{
+        width: 313px;
+    }
+    .social-icon{
+        width: 33px;
+        height: 33px;
+    }
+}
 
 

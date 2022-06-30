@@ -38,6 +38,7 @@ header{
     text-align: center;
 }
 
+
 .header__navigation-link:hover {
     border-bottom:3px solid #BABBC5;
 }
@@ -46,7 +47,13 @@ header{
     border-bottom: 3px solid #E71414;
 }
 
-
+@media (max-width:1024px){
+    .header__navigation-link{
+        width: 112px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
 
 
 

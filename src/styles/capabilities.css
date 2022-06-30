@@ -15,7 +15,7 @@
     align-items: center;
 }
 .capabilities__card-title{
-    margin-top: 50px;
+    margin: 50px 0 0;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 900;
@@ -26,7 +26,7 @@
     color: #2D3033;
 }
 .capabilities__card-text{
-    margin-top: 40px;
+    margin: 40px 0 0;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -34,5 +34,28 @@
     line-height: 21px;
     text-align: center;
     color: #6C7279;
+}
+
+@media (max-width:1024px){
+    .capabilities{
+        padding: 80px 0;
+    }
+    .capabilities__cards{
+        grid-column-gap: 20px;
+        grid-row-gap: 50px;
+    }
+    .capabilities__card-icon{
+        width: 85px;
+        height: 85px;
+    }
+    .capabilities__card-title{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .capabilities__card-text{
+        margin: 20px 0 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
 }
 
