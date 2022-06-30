@@ -1,0 +1,46 @@
+.download{
+    padding: 0 0 115px;
+}
+
+.download__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.download__title{
+    margin:18px 0 0 ;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.download__subtitle   {
+    margin: 23px 0 0 ;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.download__button{
+    margin: 50px 0 0;
+    padding: 25px 0;
+    width: 370px;
+
+}
+
+
+
+
+
+
+
+

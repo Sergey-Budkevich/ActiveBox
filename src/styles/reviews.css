@@ -1,0 +1,74 @@
+.reviews{
+    padding: 0 0 115px;
+}
+
+.container{
+    background-color: #5C3249;
+    position: relative;
+}
+.container::after{
+    content: "";
+    width: 50%;
+    height: 100%;
+    background-image: url(../assets/images/bg_slider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.reviews__content{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reviews__card{
+    max-width: 470px;
+    width: 100%;
+}
+.reviews__card-title  {
+    margin: 130px 0 0;
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.reviews__card-text{
+    margin: 15px 0 130px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.reviews__slider{
+    margin: 30px 0 0;
+}
+
+.reviews__slider-items{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+.reviews__slider-item{
+    list-style: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #7E5D6F;
+}
+.reviews__slider-item:nth-child(2){
+    background-color: #7e5d6f;
+}
+
+
+

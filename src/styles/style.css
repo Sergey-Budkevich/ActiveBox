@@ -1,0 +1,48 @@
+@import url("header.css");
+@import url("about.css");
+@import url("capabilities.css");
+@import url("projects.css");
+@import url("workers.css");
+@import url("reviews.css");
+@import url("download.css");
+@import url("footer.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.content {
+    max-width: calc(1170px + 16px * 2);
+    width: 100%;
+    padding:0 16px;
+    margin: 0 auto;
+}
+
+.button{
+    background-color: #FF4343;
+    color: #FFFFFF;  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #E71414;
+}
+.button:active{
+    background-color: #FF4343;
+    box-shadow: 4px 4px 30px #FF4343;
+}
+
+
+
+
+

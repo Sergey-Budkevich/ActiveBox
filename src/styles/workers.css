@@ -1,0 +1,59 @@
+.workers {
+    padding: 115px 0;
+}
+
+.workers__cards {
+    display: flex;
+    align-items: stretch;
+    column-gap: 30px;
+}
+
+.workers__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 270px;
+}
+.workers__card-image{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.workers__card-title {
+    margin: 30px 0 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #2D3033;
+}
+
+.workers__card-subtitle {
+    margin: 5px 0 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FF4343;
+}
+.workers__card-text{
+    margin: 18px 0 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #6C7279;
+}
+
+.workers__card-social{
+    margin: 38px 0 0;
+    display: flex;
+    column-gap: 5px;
+}
+
+
