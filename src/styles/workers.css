@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: 1 1 270px;
+    flex:1 1 270px;
 }
 .workers__card-img{
     position: relative;
@@ -85,5 +85,20 @@
     }
 }
 
+@media (max-width:768px){
+    .workers{
+        padding: 35px 0 ;
+    }
+    .workers__cards{
+        flex-direction: column;
+        align-items: center;
+        row-gap:50px;
+    }
+    .workers__card-text{
+        margin: 38px 0 0;
+    }
+    .workers__card-social{
+        margin: 55px 0 0;
 
+}
 

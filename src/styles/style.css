@@ -53,4 +53,14 @@
     }
 }
 
+@media (max-width:768px){
+    .social-icon{
+        width: 39px;
+        height: 39px;
+    }
+    .button{
+        max-width: 280px;
+    }
+}
+
 

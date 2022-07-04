@@ -1,5 +1,5 @@
 .download{
-    padding: 0 0 115px;
+    padding:0 0 115px;
 }
 
 .download__info{
@@ -8,7 +8,6 @@
     align-items: center;
 }
 .download__title{
-    margin:18px 0 0 ;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
@@ -19,7 +18,7 @@
 }
 
 .download__subtitle   {
-    margin: 23px 0 0 ;
+    margin:18px 0 0 ;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -54,7 +53,19 @@
     }
 }
 
-
+@media (max-width:768px){
+    .download{
+        padding: 0 0 45px;
+    }
+    .download__title{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .download__subtitle{
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
 
 
 

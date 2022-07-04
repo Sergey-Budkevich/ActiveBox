@@ -59,3 +59,27 @@
     }
 }
 
+@media (max-width:768px){
+    .capabilities{
+        padding: 40px 0;
+    }
+    .capabilities__cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap:40px;
+    }
+    .capabilities__card-icon{
+        width: 75px;
+        height: 75px;
+    }
+    .capabilities__card-title{
+        margin: 15px 0 0;
+    }
+    .capabilities__card-text{
+        margin: 10px 0 0;
+    }
+}
+
+
+
